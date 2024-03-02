@@ -1,0 +1,5 @@
+target remote:1234
+add-symbol-file mbr.symbol 0x7c00
+set disassembly-flavor intel
+layout src
+b *0x7c00

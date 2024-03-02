@@ -1,0 +1,14 @@
+#ifndef OS_CONSTANT_H
+#define OS_CONSTANT_H
+
+#define IDT_START_ADDRESS 0x8880
+#define CODE_SELECTOR 0x20
+#define MAX_PROGRAM_NAME 16
+#define MAX_PROGRAM_AMOUNT 16
+#define MEMORY_SIZE_ADDRESS 0x7c00  // 内存大小所在地址
+#define PAGE_SIZE 4096  // 页大小
+#define BITMAP_START_ADDRESS 0x10000
+#define PAGE_DIRECTORY 0x100000 // 页目录表的起始地址
+#define KERNEL_VIRTUAL_START 0xc0100000
+#define MAX_SYSTEM_CALL 256     // 最大的系统调用数
+#endif
